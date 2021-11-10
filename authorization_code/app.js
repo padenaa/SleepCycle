@@ -55,7 +55,7 @@ app.get('/login', function(req, res) {
       redirect_uri: redirect_uri,
       state: state
     }));
-});
+});  //test
 
 app.get('/callback', function(req, res) {
 
